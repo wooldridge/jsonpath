@@ -1,0 +1,16 @@
+{
+  "name": "json-path",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-xml-parser": "^4.0.9",
+    "jsonpath-plus": "^7.0.0"
+  }
+}

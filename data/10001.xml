@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+  <personId>10001</personId>
+  <nameGroup>
+    <givenname>
+      <value>Hermia</value>
+    </givenname>
+    <surname>
+      <value>Goodband</value>
+    </surname>
+    <fullname>
+      <classification>S</classification>
+      <restricted>true</restricted>
+      <value>Goodband Hermia</value>
+      <source>
+        <name>Washington Post</name>
+        <ts>2018-10-11T21:48:39Z</ts>
+      </source>
+    </fullname>
+  </nameGroup>
+  <contacts>
+    <contact type="email">
+      <value>pganford0@purevolume.com</value>
+      <classification>U</classification>
+      <restricted>false</restricted>
+    </contact>
+    <contact type="email">
+      <value>jjaher1@tripadvisor.com</value>
+      <classification>C</classification>
+      <restricted>false</restricted>
+    </contact>
+    <contact type="phone">
+      <value>723-560-7475</value>
+      <classification>C</classification>
+    </contact>
+  </contacts>
+  <ssn>
+    <value>622-75-9344</value>
+    <classification>(S)</classification>
+  </ssn>
+  <images>
+    <image>
+      <url>https://cdn1.marklogic.com/wp-content/uploads/2020/04/JamesKenwood-headshot-600x600-1.jpg</url>
+      <source>
+        <name>Wall Street Journal</name>
+        <ts>2013-10-24T21:02:20Z</ts>
+        <uploadedBy>srocks0</uploadedBy>
+      </source>
+    </image>
+  </images>
+  <addresses>
+    <address>
+      <street>469 Melvin Crossing</street>
+      <city>Valdosta</city>
+      <state>GA</state>
+      <postal>31605</postal>
+      <country>United States</country>
+      <latitude>30.946</latitude>
+      <longitude>-83.2474</longitude>
+    </address>
+  </addresses>
+  <status>Inactive</status>
+  <sources>
+    <source>
+      <name>Los Angeles Times</name>
+      <ts>2019-05-21T09:20:27Z</ts>
+    </source>
+  </sources>
+  <sources>
+    <source>
+      <name>Washington Post</name>
+      <ts>2020-09-26T15:45:27Z</ts>
+    </source>
+  </sources>
+</person>

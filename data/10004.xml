@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+  <personId>10004</personId>
+  <nameGroup>
+    <givenname>
+      <value>Freeland</value>
+    </givenname>
+    <surname>
+      <value>Siege</value>
+    </surname>
+    <fullname>
+      <classification>S</classification>
+      <restricted>false</restricted>
+      <value>Siege Freeland</value>
+      <source>
+        <name>Washington Post</name>
+        <ts>2021-06-10T18:42:32Z</ts>
+      </source>
+      <source>
+        <name>New York Times</name>
+        <ts>2019-07-02T23:31:14Z</ts>
+      </source>
+      <source>
+        <name>New York Times</name>
+        <ts>2011-09-30T01:13:36Z</ts>
+      </source>
+    </fullname>
+  </nameGroup>
+  <contacts>
+    <contact type="email">
+      <value>bbendtsen0@about.me</value>
+      <classification>S</classification>
+      <restricted>false</restricted>
+    </contact>
+  </contacts>
+  <ssn>
+    <value>384-97-2883</value>
+    <classification>(S)</classification>
+  </ssn>
+  <images>
+    <image>
+      <url>https://cdn1.marklogic.com/wp-content/uploads/2018/01/Michael-Malgeri-MarkLogic.jpg</url>
+      <source>
+        <name>Chicago Tribune</name>
+        <ts>2015-08-07T14:07:14Z</ts>
+        <uploadedBy>vkalaher0</uploadedBy>
+      </source>
+    </image>
+    <image>
+      <url>https://cdn1.marklogic.com/wp-content/uploads/2018/01/Michael-Malgeri-MarkLogic.jpg</url>
+      <source>
+        <name>Washington Post</name>
+        <ts>2010-04-21T02:22:45Z</ts>
+        <uploadedBy>jharland0</uploadedBy>
+      </source>
+    </image>
+    <image>
+      <url>https://cdn1.marklogic.com/wp-content/uploads/2018/02/trinh-lieu-profile.jpg</url>
+      <source>
+        <name>Wall Street Journal</name>
+        <ts>2017-10-26T08:39:39Z</ts>
+        <uploadedBy>dlipyeat0</uploadedBy>
+      </source>
+    </image>
+  </images>
+  <addresses>
+    <address>
+      <street>7 Blaine Pass</street>
+      <city>Huntington</city>
+      <state>WV</state>
+      <postal>25726</postal>
+      <country>United States</country>
+      <latitude>38.4134</latitude>
+      <longitude>-82.2774</longitude>
+    </address>
+    <address>
+      <street>45 Lerdahl Point</street>
+      <city>Trenton</city>
+      <state>NJ</state>
+      <postal>08650</postal>
+      <country>United States</country>
+      <latitude>40.2805</latitude>
+      <longitude>-74.712</longitude>
+    </address>
+    <address>
+      <street>68472 Monument Park</street>
+      <city>Santa Cruz</city>
+      <state>CA</state>
+      <postal>95064</postal>
+      <country>United States</country>
+      <latitude>36.9959</latitude>
+      <longitude>-122.0578</longitude>
+    </address>
+  </addresses>
+  <status>Inactive</status>
+  <sources>
+    <source>
+      <name>Washington Post</name>
+      <ts>2012-11-13T22:26:47Z</ts>
+    </source>
+  </sources>
+  <sources>
+    <source>
+      <name>Chicago Tribune</name>
+      <ts>2019-06-11T04:32:29Z</ts>
+    </source>
+  </sources>
+</person>
