@@ -1,4 +1,4 @@
-const { XMLParser } = require("fast-xml-parser");
+const {XMLParser} = require("fast-xml-parser");
 const {JSONPath} = require('jsonpath-plus');
 fs = require('fs');
 
@@ -10,10 +10,10 @@ const alwaysArray = [
 // fast-xml-parser: https://github.com/NaturalIntelligence/fast-xml-parser
 const options = {
     ignoreAttributes: false,
-    attributeNamePrefix : "",
+    attributeNamePrefix: "",
     allowBooleanAttributes: true,
     isArray: (name, jpath, isLeafNode, isAttribute) => { 
-        if ( alwaysArray.indexOf(jpath) !== -1) return true;
+        if (alwaysArray.indexOf(jpath) !== -1) return true;
     }
 };
 const parser = new XMLParser(options);
