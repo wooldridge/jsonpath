@@ -29,9 +29,13 @@ const xmlToJson = path => {
 
 // jsonpath-plus: https://jsonpath-plus.github.io/JSONPath/docs/ts/
 const files = ["./data/10001.xml", "./data/10004.xml"];
-const expr =  "$.person.contacts..[?(@[`type`] === 'email')]";
+const expr =  "$.person.contacts..[?(@[`type`] === 'email')].value";
 files.forEach(f => {
 	const json = xmlToJson(f);
-	console.log('Get filtered elements via JSONPath: ' + f);
+	console.log('Get filtered value elements inside contacts via JSONPath: ' + f);
 	console.log(JSONPath(expr, json));
 })
+
+const json2 = xmlToJson("./data/10001.xml");
+console.log('Get nested classification elements inside contacts/contact array via JSONPath: ./data/10001.xml');
+console.log(JSONPath("$.person.contacts..*[?(@property === 'classification')]", json2));

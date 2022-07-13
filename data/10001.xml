@@ -31,6 +31,7 @@
     </contact>
     <contact type="phone">
       <value>723-560-7475</value>
+      <classification>U</classification>
       <classification>C</classification>
     </contact>
   </contacts>
